@@ -1,7 +1,7 @@
 #myself: Mishka Sonavadekar, partner: Alex Kellogg
 
 #importing Alex K.'s decode function
-import AK_decode
+import APK_Decode
 
 #encode function
 def encode(password):
@@ -26,5 +26,5 @@ if __name__ == "__main__":
             password = encode(password)
             print("Your password has been encoded and stored!\n")
         elif choice == 2:
-            new_pass = AK_decode.decode(password)
+            new_pass = APK_Decode.decode(password)
             print(f"The encoded password is {password}, and the original password is {new_pass}.")
